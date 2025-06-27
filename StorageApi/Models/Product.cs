@@ -39,12 +39,12 @@ o string Description,
             this.Description = Description;
         }
 
-        public int Id { get; }
-        public string Name { get; }
-        public int Price { get; }
-        public string Category { get; }
-        public string Shelf { get; }
-        public int Count { get; }
-        public string Description { get; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Price { get; set; }
+        public string Category { get; set; }
+        public string Shelf { get; set; }
+        public int Count { get; set; }
+        public string Description { get; set; }
     }
 }
