@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using StorageApi.Controllers;
 using StorageApi.Data;
 
 namespace StorageApi
@@ -34,6 +35,15 @@ namespace StorageApi
             app.MapControllers();
 
             app.Run();
+
+            
+
+            
         }
+
+
+
+
+
     }
 }
